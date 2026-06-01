@@ -1,8 +1,12 @@
-# awesome-auto-penetration-testing
+<h1 align="center">Awesome-Auto-Penetration-Testing</h1>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)
+<p align="center">
+  <a href="https://awesome.re">
+    <img src="https://awesome.re/badge.svg" alt="Awesome">
+  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+  <img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg" alt="License">
+</p>
 
 A curated list of papers, tools, benchmarks, datasets, and resources for automated penetration testing.
 
