@@ -240,6 +240,42 @@ Capture the Flag (CTF) is a computer security competition that is generally used
 
 ### Regular Papers
 
+**ZERO-APT: A Closed-Loop Adversarial Framework for LLM-Driven Automated Penetration Testing under Intelligent Defense** [[Paper](https://arxiv.org/pdf/2606.05567)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/arXiv-ID-b31b1b.svg" alt="arXiv">
+  <img src="https://img.shields.io/badge/Rank-N%2FA-lightgrey.svg" alt="Rank-N/A">
+  <img src="https://img.shields.io/badge/Website-Unavailable-lightgrey" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Unavailable-lightgrey" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Regular%20Paper-00A6A6" alt="Type-Regular Paper">
+</div>
+Published: 2026-06
+
+Tags: `LLM` | `Agent`
+<details><summary>Abstract</summary>
+LLM-driven automated penetration testing agents are typically evaluated against static targets that neither detect nor respond to attacks, so their behavior under intelligent defense remains untested. The causal consistency of multi-step attack chains likewise hinges on unstable LLM reasoning, and agent decisions remain opaque to human analysts. These three shortcomings, in realism, consistency, and auditability, are usually patched in isolation. We present ZERO-APT, a turn-based attacker-defender-judge framework that addresses them within a single architecture. For realism, ZERO-APT embeds a configurable LLM Defender that consumes Sysmon telemetry and detects attacks in real time, exposing the attacker to a live opponent rather than a passive target. For consistency, three architectural mechanisms move causal consistency from unstable LLM reasoning into enforced system architecture: separation of planning from execution, multi-dimensional ReAct feedback, and a hard-constraint-filtered action library. For auditability, a dedicated Judge agent adjudicates each round, maintains global state, and emits structured post-hoc CTI reports that make every decision traceable. We evaluate a Windows Server 2022 post-exploitation prototype across five scenarios with three Defender configurations. ZERO-APT reaches 79% attack success rate (Aurora 22%, PentestGPT 39%), a Causal Consistency Score of 0.860 (Aurora 0.930, Claude Code 0.520), and end-to-end decision auditability through structured CTI reports. We release the benchmark to support evaluation of penetration agents under intelligent defense.
+</details>
+
+---
+
+**Synthetic APTs: the Collapse of TTP-Based Attribution** [[Paper](https://arxiv.org/pdf/2606.07158)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/arXiv-ID-b31b1b.svg" alt="arXiv">
+  <img src="https://img.shields.io/badge/Rank-N%2FA-lightgrey.svg" alt="Rank-N/A">
+  <img src="https://img.shields.io/badge/Website-Unavailable-lightgrey" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Unavailable-lightgrey" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Regular%20Paper-00A6A6" alt="Type-Regular Paper">
+</div>
+Published: 2026-06
+
+Tags: `LLM` | `APT`
+<details><summary>Abstract</summary>
+Cyber Threat Intelligence CTI attribution relies on identifying the Tactics, Techniques, and Procedures TTPs that distinguish one threat actor from another. This approach presupposes that each adversary leaves a recognizable operational fingerprint. This work investigates whether AI driven adversary emulation challenges that presupposition. We deploy agents from our Cybersecurity SuperIntelligence CSI framework, configured as five Advanced Persistent Threat APT groups, APT28, APT29, APT41, APT44, and Lazarus Group, against AI driven Defender agents across two cyber ranges provided by CYBER RANGES, equipped with defensive software Wazuh, Velociraptor, Elasticsearch and active AI driven defenders: an enterprise network and a military infrastructure. Across 20 experiments using two defender models, a binary pattern emerges: all 10 Enterprise range experiments resulted in compromise 2 to 12 hosts per experiment, while all 10 Military range experiments were successfully defended or resulted in stalemates, regardless of APT profile or defender model. In 8 of 10 Enterprise experiments, attackers independently weaponized the defender's own Velociraptor endpoint management platform as a command and control channel, a convergent behavior not encoded in any threat intelligence profile. We argue that in the AI era, wherein agents can be deployed provided the right models are available and subject to the right scaffolding and agentic configuration, the entry barrier for operating like a nation state APT collapses: beyond nation states, individuals can now act like commonly identified threat actors, and with it, fundamentally undermine TTP based attribution.
+</details>
+
+---
+
 **Cyber-Zero: Training Cybersecurity Agents without Runtime** [[Paper](https://openreview.net/pdf?id=1gRTeAik4G)] [[Code](https://github.com/amazon-science/cyber-zero)]
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
   <img src="https://img.shields.io/badge/ICLR-2026-blue.svg" alt="ICLR">
