@@ -276,6 +276,26 @@ Cyber Threat Intelligence CTI attribution relies on identifying the Tactics, Tec
 
 ---
 
+**Incalmo: An Autonomous LLM-assisted System for Red Teaming Multi-Host Networks** [[WebSite](https://www.incalmo.ai/)] [[Paper](https://arxiv.org/abs/2501.16466)] [[Code](https://github.com/cylabcyberautonomy/Incalmo)] [[Dataset](https://github.com/bsinger98/MHBench)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/S%26P-2026-blue.svg" alt="S&amp;P">
+  <img src="https://img.shields.io/badge/CCF-A-red.svg" alt="CCF-A">
+  <img src="https://img.shields.io/badge/Website-Available-7B61FF" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Available-181717" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Regular%20Paper-00A6A6" alt="Type-Regular Paper">
+</div>
+Published: 2026-05
+
+Tags: `LLM` | `Agent`
+<details><summary>Abstract</summary>
+Security operators use red teams to simulate real attackers and proactively find defense gaps. In realistic enterprise settings, this involves executing multi-host network attacks spanning many "stepping stone" hosts. Unfortunately, red teams are expensive and entail significant expertise and effort. Given the promise of LLMs in CTF challenges, we first analyze if LLMs can autonomously execute multi-host red team exercises. We find that state-of-the-art LLM-assisted offense systems (e.g., PentestGPT, CyberSecEval3) with leading LLMs (e.g., Sonnet 4, Gemini 2.5 Pro) are unable to do so.
+Building on our observations in understanding the failure modes of state-of-the-art systems, we argue the need to improve the abstractions and interfaces for LLM-assisted red teaming. Based on this insight, we present the design and implementation of Incalmo, an LLM-assisted system for autonomously red teaming multi-host networks. Incalmo uses LLMs to plan red team exercises in terms of high-level declarative tasks that are executed by domain-specific task agents. Incalmo also uses auxiliary services to manage context and acquired assets.
+For our evaluation, we develop MHBench, a novel multi-host attack benchmark with 40 realistic emulated networks (from 22 to 50 hosts). We find that Incalmo successfully acquires critical assets (i.e., key hosts or data) in 37 out of 40 MHBench environments. In contrast, state-of-the-art LLM-assisted systems succeed in only 3 out of 40 environments. We show that Incalmo is efficient-successful attacks took 12-54 minutes and cost <$15 in LLM credits.
+</details>
+
+---
+
 **Cyber-Zero: Training Cybersecurity Agents without Runtime** [[Paper](https://openreview.net/pdf?id=1gRTeAik4G)] [[Code](https://github.com/amazon-science/cyber-zero)]
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
   <img src="https://img.shields.io/badge/ICLR-2026-blue.svg" alt="ICLR">
