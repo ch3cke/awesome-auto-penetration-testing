@@ -2397,6 +2397,60 @@ Machine learning is a popular approach to signatureless malware detection becaus
 
 ## Benchmarks and Cyber Ranges
 
+**AgentCyberRange: Benchmarking Frontier AI Systems in Realistic Cyber Ranges** [[Paper](https://arxiv.org/abs/2606.14295)] [[Code](https://github.com/AgentCyberRange)] [[Dataset](https://huggingface.co/AgentCyberRange)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/arXiv-ID-b31b1b.svg" alt="arXiv">
+  <img src="https://img.shields.io/badge/Rank-N%2FA-lightgrey.svg" alt="Rank-N/A">
+  <img src="https://img.shields.io/badge/Website-Unavailable-lightgrey" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Available-181717" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Benchmark-orange.svg" alt="Type-Benchmark">
+</div>
+Published: 2026-06
+
+Tags: `WEB` | `Post-Exploitation` | `Cyber Range` | `LLM`
+<details><summary>Abstract</summary>
+AgentCyberRange is an open multi-range benchmark for measuring autonomous cyber attack capability under realistic attack workflows. It combines web exploitation tasks over 15 real web applications with 110 vulnerabilities, post-exploitation tasks across 8 enterprise-like cyber ranges with 156 internal hosts, and CAGE, an execution and verification pipeline for running agent evaluations. This is highly relevant for red-team-oriented research because it evaluates the path from external web entry points to internal compromise rather than isolated CTF-style puzzles.
+</details>
+
+---
+
+**MHBench: Multi-Host Environments for Evaluating Autonomous Network Attackers and Defenders** [[Paper](https://arxiv.org/abs/2501.16466)] [[Code](https://github.com/bsinger98/MHBench)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/S%26P-2026-blue.svg" alt="S&amp;P">
+  <img src="https://img.shields.io/badge/CCF-A-red.svg" alt="CCF-A">
+  <img src="https://img.shields.io/badge/Website-Unavailable-lightgrey" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Available-181717" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Benchmark-orange.svg" alt="Type-Benchmark">
+</div>
+Published: 2026-05
+
+Tags: `Red Teaming` | `Multi-Host` | `Cyber Range` | `LLM`
+<details><summary>Abstract</summary>
+MHBench provides multi-host environments for evaluating autonomous attackers and defenders. The benchmark includes manually tuned environments based on real-world reports and programmatically generated environments, with OpenStack-based deployment for realistic network topology, host provisioning, and attack progression. It is a high-priority benchmark for studying LLM-assisted red teaming, lateral movement, privilege escalation, and attack-chain execution, but it has heavier infrastructure requirements than CTF-style benchmarks.
+</details>
+
+---
+
+**SEC-bench Pro: Can Language Models Solve Long-Horizon Software Security Tasks?** [[Paper](https://arxiv.org/abs/2605.26548)] [[Code](https://github.com/SEC-bench/SEC-bench-Pro)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/arXiv-ID-b31b1b.svg" alt="arXiv">
+  <img src="https://img.shields.io/badge/Rank-N%2FA-lightgrey.svg" alt="Rank-N/A">
+  <img src="https://img.shields.io/badge/Website-Unavailable-lightgrey" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Available-181717" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Benchmark-orange.svg" alt="Type-Benchmark">
+</div>
+Published: 2026-05
+
+Tags: `Exploit` | `Browser Engine` | `Long-Horizon` | `LLM`
+<details><summary>Abstract</summary>
+SEC-bench Pro evaluates long-horizon software security tasks on high-complexity targets such as Chromium V8, Mozilla SpiderMonkey, and Linux kernel cases. Each benchmark case packages reproduction artifacts, PoCs, containerized environments, and verification notes, with harnesses for agent evaluation and grading. It is useful when the research question is less about web pentesting workflows and more about whether coding agents can turn real bug reports into validated exploit or crash-reproduction results.
+</details>
+
+---
+
 **ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?** [[Paper](https://arxiv.org/abs/2605.11086)]
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
   <img src="https://img.shields.io/badge/arXiv-ID-b31b1b.svg" alt="arXiv">
@@ -2613,6 +2667,24 @@ Published: 2025-08
 Tags: `LLM` | `Agent` | `CTF` | `Offensive Security`
 <details><summary>Abstract</summary>
 Recent advances in LLM agentic systems have improved the automation of offensive security tasks, particularly for Capture the Flag (CTF) challenges. We systematically investigate the key factors that drive agent success and provide a detailed recipe for building effective LLM-based offensive security agents. First, we present CTFJudge, a framework leveraging LLM as a judge to analyze agent trajectories and provide granular evaluation across CTF solving steps. Second, we propose a novel metric, CTF Competency Index (CCI) for partial correctness, revealing how closely agent solutions align with human-crafted gold standards. Third, we examine how LLM hyperparameters, namely temperature, top-p, and maximum token length, influence agent performance and automated cybersecurity task planning. For rapid evaluation, we present CTFTiny, a curated benchmark of 50 representative CTF challenges across binary exploitation, web, reverse engineering, forensics, and cryptography. Our findings identify optimal multi-agent coordination settings and lay the groundwork for future LLM agent research in cybersecurity. We make CTFTiny open source to public https://github.com/NYU-LLM-CTF/CTFTiny along with CTFJudge on https://github.com/NYU-LLM-CTF/CTFJudge.
+</details>
+
+---
+
+**SEC-bench: A Benchmark for Evaluating Cybersecurity Capabilities of Language Models** [[WebSite](https://sec-bench.github.io/)] [[Paper](https://openreview.net/forum?id=QQhQIqons0)] [[Code](https://github.com/SEC-bench/SEC-bench)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/NeurIPS-2025-blue.svg" alt="NeurIPS">
+  <img src="https://img.shields.io/badge/CCF-A-red.svg" alt="CCF-A">
+  <img src="https://img.shields.io/badge/Website-Available-7B61FF" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Available-181717" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Benchmark-orange.svg" alt="Type-Benchmark">
+</div>
+Published: 2025-12
+
+Tags: `CTF` | `Exploit` | `Patch` | `LLM`
+<details><summary>Abstract</summary>
+SEC-bench is a broad cybersecurity benchmark for evaluating language models across seven task domains, including CTF solving, exploit writing, vulnerability repair, static analysis, and applied cryptography. It is less infrastructure-heavy than full cyber ranges and is useful as a general capability baseline before moving to more realistic web, bug bounty, or multi-host attack environments.
 </details>
 
 ---
@@ -2865,6 +2937,42 @@ Published: 2024
 Tags: `LLM` | `Benchmark` | `Cybersecurity`
 <details><summary>Abstract</summary>
 Language Model (LM) agents for cybersecurity that are capable of autonomously identifying vulnerabilities and executing exploits have potential to cause real-world impact. Policymakers, model providers, and researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such agents to help mitigate cyberrisk and investigate opportunities for penetration testing. Toward that end, we introduce Cybench, a framework for specifying cybersecurity tasks and evaluating agents on those tasks. We include 40 professional-level Capture the Flag (CTF) tasks from 4 distinct CTF competitions, chosen to be recent, meaningful, and spanning a wide range of difficulties. Each task includes its own description, starter files, and is initialized in an environment where an agent can execute commands and observe outputs. Since many tasks are beyond the capabilities of existing LM agents, we introduce subtasks for each task, which break down a task into intermediary steps for a more detailed evaluation. To evaluate agent capabilities, we construct a cybersecurity agent and evaluate 8 models: GPT-4o, OpenAI o1-preview, Claude 3 Opus, Claude 3.5 Sonnet, Mixtral 8x22b Instruct, Gemini 1.5 Pro, Llama 3 70B Chat, and Llama 3.1 405B Instruct. For the top performing models (GPT-4o and Claude 3.5 Sonnet), we further investigate performance across 4 agent scaffolds (structed bash, action-only, pseudoterminal, and web search). Without subtask guidance, agents leveraging Claude 3.5 Sonnet, GPT-4o, OpenAI o1-preview, and Claude 3 Opus successfully solved complete tasks that took human teams up to 11 minutes to solve. In comparison, the most difficult task took human teams 24 hours and 54 minutes to solve. All code and data are publicly available at https://cybench.github.io.
+</details>
+
+---
+
+**AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents** [[Paper](https://arxiv.org/abs/2406.13352)] [[Code](https://github.com/ethz-spylab/agentdojo)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/NeurIPS-2024-blue.svg" alt="NeurIPS">
+  <img src="https://img.shields.io/badge/CCF-A-red.svg" alt="CCF-A">
+  <img src="https://img.shields.io/badge/Website-Unavailable-lightgrey" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Available-181717" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Benchmark-orange.svg" alt="Type-Benchmark">
+</div>
+Published: 2024
+
+Tags: `LLM` | `Agent` | `Tool Use` | `Prompt Injection`
+<details><summary>Abstract</summary>
+AgentDojo is a benchmark and dynamic environment for evaluating indirect prompt injection attacks and defenses in tool-using LLM agents. It provides task suites where agents must complete benign user goals while adversarial content attempts to redirect tool calls or exfiltrate data. For research around RAG/Agent tool permissions, service-side agent mechanisms, and runtime guardrails, it is a useful companion benchmark to offensive cyber ranges.
+</details>
+
+---
+
+**InterCode-CTF: Evaluating Interactive Code Generation for Capture-the-Flag Tasks** [[Paper](https://arxiv.org/abs/2306.14898)] [[Code](https://github.com/princeton-nlp/intercode)]
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 0;">
+  <img src="https://img.shields.io/badge/NeurIPS-2023-blue.svg" alt="NeurIPS">
+  <img src="https://img.shields.io/badge/CCF-A-red.svg" alt="CCF-A">
+  <img src="https://img.shields.io/badge/Website-Unavailable-lightgrey" alt="Website">
+  <img src="https://img.shields.io/badge/Paper-blue.svg" alt="Type-Paper">
+  <img src="https://img.shields.io/badge/Code-Available-181717" alt="Code">
+  <img src="https://img.shields.io/badge/Type-Benchmark-orange.svg" alt="Type-Benchmark">
+</div>
+Published: 2023
+
+Tags: `LLM` | `CTF` | `Interactive Agent` | `Benchmark`
+<details><summary>Abstract</summary>
+InterCode-CTF is the cybersecurity task suite in InterCode, an interactive code benchmark where agents act through a terminal-like interface and receive execution feedback. Although it is closer to CTF than real enterprise penetration testing, it remains a common baseline for LLM offensive-security agents because it tests iterative tool use, command execution, and exploitation reasoning in a standardized environment.
 </details>
 
 ---
